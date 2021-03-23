@@ -118,7 +118,7 @@ class ReflectMethod extends ReflectMember {
      * @internal
      */
     protected function new_ReflectParameter(ReflectionParameter $param): ReflectParameter {
-        return new ReflectParameter($param);
+        return new ReflectParameter($this->method, $param);
     }
 
     /**
