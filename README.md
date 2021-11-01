@@ -15,6 +15,18 @@ You can view the [Full Documentation](docs/reflect.md) to lean more about what t
 
 ### Installation
 
+__Using .phar library__
+
+```sh
+wget https://github.com/IMPHP/reflect/releases/download/<version>/imphp-reflect.phar
+```
+
+```php
+require "imphp-reflect.phar";
+
+...
+```
+
 __Clone via git__
 
 ```sh
